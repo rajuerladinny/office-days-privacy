@@ -23,8 +23,8 @@ Office Days ("the app") is a personal office-attendance log for Android. This po
 - **Google Play services (Fused Location Provider)** supplies location on Android. Their handling is covered by Google's Privacy Policy: https://policies.google.com/privacy
 - **OpenStreetMap tile servers** receive standard web requests (your IP address and the map area requested) **only while you have the office map picker open**. See https://osmfoundation.org/wiki/Privacy_Policy
 
-## Exports
-PDF reports are created only when you ask for one, and saved where you choose. If you pick a cloud storage provider, that provider handles the file. Exported files aren't password-protected and stay where you saved them until you delete them.
+## Exports and backup files
+PDF reports and backup files are created only when you ask for one, and saved where you choose. A backup file contains your visits, holidays, leave, correction history, office pin and settings, so you can restore them on another phone or a new install. If you pick a cloud storage provider, that provider handles the file. Exported files aren't password-protected or encrypted and stay where you saved them until you delete them. Importing a backup reads only the file you pick.
 
 ## Backups, retention and deletion
 - Android cloud backup and device-to-device transfer are disabled for the app's data.
